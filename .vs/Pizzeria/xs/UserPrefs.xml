@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{0AEF21BB-29BE-4625-BAC1-A709962807C1}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Pizzeria" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Pizzeria" expanded="True" selected="True">
+            <Node name="Pizzeria.Tests" expanded="True">
+              <Node name="Pizzeria.Tests" expanded="True">
+                <Node name="PizzeriaControllerTest" expanded="True" />
+                <Node name="PizzeriaServiceTest" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Pizzeria.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Pizzeria.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

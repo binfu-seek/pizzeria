@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Models\DTOs\" />
+    <None Remove="Models\EntityModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Models\DTOs\" />
+    <Folder Include="Models\EntityModels\" />
+  </ItemGroup>
+</Project>
