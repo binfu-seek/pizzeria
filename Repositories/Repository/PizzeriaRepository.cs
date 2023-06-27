@@ -22,22 +22,6 @@ namespace Repositories.Repository
         {
             try
             {
-                //var result = await (from outlet in _ctx.Outlets
-                //    join shopPizza in _ctx.OutletPizzas on outlet.ID equals shopPizza.OutletID
-                //    join pizzaInfo in _ctx.Pizzas on shopPizza.PizzaID equals pizzaInfo.ID
-                //    select new OutletPizzaDetail
-                //    {
-                //        OutletID = outlet.ID,
-                //        OutletName = outlet.Name,
-                //        PizzaOrderList = outlet.OutletPizzas.Select(sp => new PizzaDetail
-                //        {
-                //            PizzaID = sp.Pizza.ID,
-                //            PizzaName = sp.Pizza.Name,
-                //            Ingredients = sp.Pizza.Ingredients,
-                //            Price = sp.Price
-                //        }).ToList()
-                //    }).Distinct().ToListAsync();
-
                 var outletPizzas = await (
                     from outlet in _ctx.Outlets
                     join shopPizza in _ctx.OutletPizzas on outlet.ID equals shopPizza.OutletID
